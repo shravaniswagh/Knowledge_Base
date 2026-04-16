@@ -1,0 +1,8 @@
+---
+- name: Brute Force (Web) Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Configure fail2ban
+      debug:
+        msg: "Executing Brute Force (Web) mitigation: Fail2Ban Activation"

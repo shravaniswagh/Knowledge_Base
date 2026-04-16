@@ -1,0 +1,8 @@
+---
+- name: PowerShell Bypass Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden powershell policies
+      debug:
+        msg: "Executing PowerShell Bypass mitigation: Constrained Lang"

@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for EC2 Metadata Leak with pattern AWS_METADATA_REQUEST\n

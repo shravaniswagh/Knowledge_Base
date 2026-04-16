@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for HIPAA Privacy violation with pattern PATIENT_RECORD_PLAINTEXT\n

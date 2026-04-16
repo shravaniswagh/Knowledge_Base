@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for S3 Bucket Exposure with pattern PUBLIC_ACL\n

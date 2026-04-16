@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for PLC Logic Tampering with pattern PLC_CODE_CHANGE\n

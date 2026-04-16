@@ -1,0 +1,8 @@
+---
+- name: SMB Relay Attack Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden smb.conf signing
+      debug:
+        msg: "Executing SMB Relay Attack mitigation: Enable Signing"

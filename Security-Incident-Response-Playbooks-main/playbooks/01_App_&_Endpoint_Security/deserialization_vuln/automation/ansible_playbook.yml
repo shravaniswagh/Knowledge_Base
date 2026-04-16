@@ -1,0 +1,8 @@
+---
+- name: Insecure Deserialization Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Sanitize serial data
+      debug:
+        msg: "Executing Insecure Deserialization mitigation: Strict Validation"

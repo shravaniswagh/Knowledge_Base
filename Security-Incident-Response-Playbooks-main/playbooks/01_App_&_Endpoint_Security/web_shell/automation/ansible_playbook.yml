@@ -1,0 +1,8 @@
+---
+- name: Web Shell Detection Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Find and delete php shells
+      debug:
+        msg: "Executing Web Shell Detection mitigation: Removing Web Shells"

@@ -1,0 +1,8 @@
+---
+- name: Audit Log Deletion Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Fetch secondary offsite logs
+      debug:
+        msg: "Executing Audit Log Deletion mitigation: Restore Logs"

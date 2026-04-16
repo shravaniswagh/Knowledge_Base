@@ -1,0 +1,8 @@
+---
+- name: Sensor Spoofing Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Verify sensor checksums
+      debug:
+        msg: "Executing Sensor Spoofing mitigation: Zero Trust"

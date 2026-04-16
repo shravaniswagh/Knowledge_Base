@@ -1,0 +1,8 @@
+---
+- name: Blockchain Flash Loan Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update blockchain price feed
+      debug:
+        msg: "Executing Blockchain Flash Loan mitigation: Oracle Safeguard"

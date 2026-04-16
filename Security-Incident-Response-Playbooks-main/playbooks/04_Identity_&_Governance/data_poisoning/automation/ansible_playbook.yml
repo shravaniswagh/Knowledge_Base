@@ -1,0 +1,8 @@
+---
+- name: AI Data Poisoning Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Purge bad training set
+      debug:
+        msg: "Executing AI Data Poisoning mitigation: Scrub Pipeline"

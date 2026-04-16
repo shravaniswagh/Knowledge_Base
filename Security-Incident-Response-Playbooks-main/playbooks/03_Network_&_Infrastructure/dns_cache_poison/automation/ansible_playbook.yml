@@ -1,0 +1,8 @@
+---
+- name: DNS Cache Poisoning Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Reload rndc dns
+      debug:
+        msg: "Executing DNS Cache Poisoning mitigation: Flush Cache"

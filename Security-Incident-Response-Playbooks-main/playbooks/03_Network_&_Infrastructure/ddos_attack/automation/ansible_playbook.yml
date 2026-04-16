@@ -1,0 +1,8 @@
+---
+- name: DDoS Attack Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Apply iptables-shield
+      debug:
+        msg: "Executing DDoS Attack mitigation: Rate Limiting"

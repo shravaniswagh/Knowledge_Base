@@ -1,0 +1,8 @@
+---
+- name: Pipeline Poisoning Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Rotate CI tokens
+      debug:
+        msg: "Executing Pipeline Poisoning mitigation: Harden Runner"

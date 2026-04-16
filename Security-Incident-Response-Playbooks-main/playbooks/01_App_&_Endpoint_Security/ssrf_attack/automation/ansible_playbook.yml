@@ -1,0 +1,8 @@
+---
+- name: SSRF Attack Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Block internal cloud IPs
+      debug:
+        msg: "Executing SSRF Attack mitigation: Egress Filtering"

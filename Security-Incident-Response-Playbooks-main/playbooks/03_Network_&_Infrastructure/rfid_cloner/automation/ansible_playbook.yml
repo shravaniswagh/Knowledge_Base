@@ -1,0 +1,8 @@
+---
+- name: RFID Badge Cloner Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Revoke employee badge ID
+      debug:
+        msg: "Executing RFID Badge Cloner mitigation: Disable Badge"

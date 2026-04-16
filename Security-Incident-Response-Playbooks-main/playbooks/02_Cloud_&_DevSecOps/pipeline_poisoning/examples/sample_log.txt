@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for CI/CD Pipeline Poisoning with pattern RUNNER_INJECTION\n

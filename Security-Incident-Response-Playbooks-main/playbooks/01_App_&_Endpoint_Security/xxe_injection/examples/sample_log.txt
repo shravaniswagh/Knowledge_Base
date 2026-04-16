@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for XML External Entity (XXE) with pattern file:///etc/passwd\n

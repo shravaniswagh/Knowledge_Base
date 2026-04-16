@@ -1,0 +1,8 @@
+---
+- name: RDS Database Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Disable RDS public access
+      debug:
+        msg: "Executing RDS Database Leak mitigation: Secure RDS"

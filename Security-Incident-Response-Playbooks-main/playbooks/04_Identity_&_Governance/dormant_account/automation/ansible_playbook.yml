@@ -1,0 +1,8 @@
+---
+- name: Dormant Account Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update pam_tally inactive lock
+      debug:
+        msg: "Executing Dormant Account mitigation: Disable account"

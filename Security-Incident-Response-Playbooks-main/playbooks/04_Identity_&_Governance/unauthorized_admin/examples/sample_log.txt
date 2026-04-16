@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Unauthorized Admin Creation with pattern USER_ADDED_TO_ADMINS\n

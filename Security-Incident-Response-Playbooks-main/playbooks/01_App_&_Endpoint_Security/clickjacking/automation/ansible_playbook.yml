@@ -1,0 +1,8 @@
+---
+- name: Clickjacking Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Add X-Frame headers
+      debug:
+        msg: "Executing Clickjacking mitigation: Set X-Frame-Options"

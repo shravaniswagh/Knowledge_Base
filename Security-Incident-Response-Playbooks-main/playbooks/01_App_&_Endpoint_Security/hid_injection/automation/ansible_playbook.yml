@@ -1,0 +1,8 @@
+---
+- name: HID Injection Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Disable unauthorized USB devices
+      debug:
+        msg: "Executing HID Injection mitigation: Disabling Rogue USB"

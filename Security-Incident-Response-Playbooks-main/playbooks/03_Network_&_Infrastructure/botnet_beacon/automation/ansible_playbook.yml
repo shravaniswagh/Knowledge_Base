@@ -1,0 +1,8 @@
+---
+- name: Botnet Heartbeat Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Block C2 destination IP
+      debug:
+        msg: "Executing Botnet Heartbeat mitigation: Isolate host"

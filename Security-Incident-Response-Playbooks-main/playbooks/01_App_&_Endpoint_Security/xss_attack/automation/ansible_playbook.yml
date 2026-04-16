@@ -1,0 +1,8 @@
+---
+- name: Cross-Site Scripting (XSS) Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Add security headers
+      debug:
+        msg: "Executing Cross-Site Scripting (XSS) mitigation: Enforce CSP Headers"

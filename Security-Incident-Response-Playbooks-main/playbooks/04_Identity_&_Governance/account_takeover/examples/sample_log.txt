@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Account Takeover (ATO) with pattern GEO_SHIFT\n

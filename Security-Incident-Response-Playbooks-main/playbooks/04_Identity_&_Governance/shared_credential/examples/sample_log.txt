@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Shared Credential Usage with pattern CONCURRENT_LOGINS_DISTANT\n

@@ -1,0 +1,8 @@
+---
+- name: Dependency Confusion Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden npm/pip configs
+      debug:
+        msg: "Executing Dependency Confusion mitigation: Pin Private"

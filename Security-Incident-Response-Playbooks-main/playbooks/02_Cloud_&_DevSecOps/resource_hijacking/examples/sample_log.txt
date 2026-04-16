@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Resource Hijacking with pattern UNAUTHORIZED_CPU\n

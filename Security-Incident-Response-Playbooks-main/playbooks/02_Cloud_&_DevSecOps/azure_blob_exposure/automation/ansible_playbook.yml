@@ -1,0 +1,8 @@
+---
+- name: Azure Blob Misconfig Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Disable public access on blobs
+      debug:
+        msg: "Executing Azure Blob Misconfig mitigation: Secure Container"

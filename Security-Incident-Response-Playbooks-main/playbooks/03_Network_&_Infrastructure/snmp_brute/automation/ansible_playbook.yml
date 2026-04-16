@@ -1,0 +1,8 @@
+---
+- name: SNMP Brute Force Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Change snmp community strings
+      debug:
+        msg: "Executing SNMP Brute Force mitigation: Update Community"

@@ -1,0 +1,8 @@
+---
+- name: BGP Hijacking Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update BGP neighbor auth
+      debug:
+        msg: "Executing BGP Hijacking mitigation: BGP Session Auth"

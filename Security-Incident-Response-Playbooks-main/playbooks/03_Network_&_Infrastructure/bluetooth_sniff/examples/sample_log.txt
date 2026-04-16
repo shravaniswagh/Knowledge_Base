@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Bluetooth Sniffing with pattern BLE_SPOOF\n

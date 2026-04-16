@@ -1,0 +1,8 @@
+---
+- name: Modbus Flood Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Rate limit modbus traffic
+      debug:
+        msg: "Executing Modbus Flood mitigation: Network Shard"

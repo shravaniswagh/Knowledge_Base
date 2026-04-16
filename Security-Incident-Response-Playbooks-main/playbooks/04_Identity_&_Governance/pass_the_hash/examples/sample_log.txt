@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Pass-the-Hash (PtH) with pattern NTLM_ANOMALY\n

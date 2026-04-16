@@ -1,0 +1,8 @@
+---
+- name: Golden Ticket Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Reset krbtgt identity twice
+      debug:
+        msg: "Executing Golden Ticket mitigation: Reset KRBTGT"

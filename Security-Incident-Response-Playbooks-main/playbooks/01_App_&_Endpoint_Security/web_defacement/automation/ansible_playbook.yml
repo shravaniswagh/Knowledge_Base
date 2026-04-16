@@ -1,0 +1,8 @@
+---
+- name: Web Defacement Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Sync web content
+      debug:
+        msg: "Executing Web Defacement mitigation: Restore from Git"

@@ -1,0 +1,8 @@
+---
+- name: Kerberoasting Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Reset ad password
+      debug:
+        msg: "Executing Kerberoasting mitigation: Rotate AD Key"

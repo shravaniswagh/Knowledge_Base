@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for IAM Role Abuse with pattern IAM_PRIV_ESC\n

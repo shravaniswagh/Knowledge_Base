@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for SQL Injection with pattern ' OR 1=1 --\n

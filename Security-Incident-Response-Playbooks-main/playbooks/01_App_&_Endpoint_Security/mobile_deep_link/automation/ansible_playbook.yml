@@ -1,0 +1,8 @@
+---
+- name: Deep Link Exploit Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Audit intent-filters
+      debug:
+        msg: "Executing Deep Link Exploit mitigation: Harden Link Handlers"

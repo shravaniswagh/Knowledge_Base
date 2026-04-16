@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for SMB Relay Attack with pattern SMB_RELAY\n

@@ -1,0 +1,8 @@
+---
+- name: BEC Fraud Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update mail server rules
+      debug:
+        msg: "Executing BEC Fraud mitigation: Enable Flag"

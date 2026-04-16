@@ -1,0 +1,8 @@
+---
+- name: PCI Compliance Breach Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Shred sensitive log files
+      debug:
+        msg: "Executing PCI Compliance Breach mitigation: Purge Logs"

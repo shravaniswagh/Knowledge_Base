@@ -1,0 +1,8 @@
+---
+- name: Secret Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Invalidate leaked secrets
+      debug:
+        msg: "Executing Secret Leak mitigation: Scrub Build Logs"

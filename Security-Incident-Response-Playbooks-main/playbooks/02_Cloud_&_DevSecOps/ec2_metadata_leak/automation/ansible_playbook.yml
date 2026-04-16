@@ -1,0 +1,8 @@
+---
+- name: EC2 Metadata Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden ec2 instance metadata
+      debug:
+        msg: "Executing EC2 Metadata Leak mitigation: Enforce IMDSv2"

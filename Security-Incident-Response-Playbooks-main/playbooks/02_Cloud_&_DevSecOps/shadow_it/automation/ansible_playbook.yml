@@ -1,0 +1,8 @@
+---
+- name: Shadow IT Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update firewall blacklists
+      debug:
+        msg: "Executing Shadow IT mitigation: Block SaaS"

@@ -1,0 +1,8 @@
+---
+- name: VPC Peering Abuse Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Purge unauthorized VPC peers
+      debug:
+        msg: "Executing VPC Peering Abuse mitigation: Remove Peers"

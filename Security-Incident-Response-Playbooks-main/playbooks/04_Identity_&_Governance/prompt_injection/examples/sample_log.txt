@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for AI Prompt Injection with pattern LLM_OVERRIDE_SYSTEM\n

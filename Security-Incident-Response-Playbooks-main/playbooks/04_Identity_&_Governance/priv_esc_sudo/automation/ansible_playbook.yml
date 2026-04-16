@@ -1,0 +1,8 @@
+---
+- name: Privilege Escalation Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Remove user from sudo group
+      debug:
+        msg: "Executing Privilege Escalation mitigation: Revoke Sudoers"

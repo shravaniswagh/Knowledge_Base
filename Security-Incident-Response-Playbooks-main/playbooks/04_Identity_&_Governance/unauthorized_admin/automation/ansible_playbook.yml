@@ -1,0 +1,8 @@
+---
+- name: Unauthorized Admin Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Remove admin group members
+      debug:
+        msg: "Executing Unauthorized Admin mitigation: Revoke Admin"

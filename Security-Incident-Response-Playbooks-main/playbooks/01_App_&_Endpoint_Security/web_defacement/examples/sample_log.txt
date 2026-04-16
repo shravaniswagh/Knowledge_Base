@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Web Defacement with pattern HASH_MISMATCH\n

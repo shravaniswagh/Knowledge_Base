@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Dependency Confusion with pattern INTERNAL_PKG_MISMATCH\n

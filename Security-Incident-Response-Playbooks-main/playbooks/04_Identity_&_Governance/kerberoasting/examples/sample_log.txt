@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Kerberoasting (AD) with pattern TGS_RC4\n

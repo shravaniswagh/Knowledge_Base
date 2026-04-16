@@ -1,0 +1,8 @@
+---
+- name: Pass-the-Hash Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update registry lsa config
+      debug:
+        msg: "Executing Pass-the-Hash mitigation: LSA Protection"

@@ -1,0 +1,8 @@
+---
+- name: Malicious Extension Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Purge unsanctioed chrome extensions
+      debug:
+        msg: "Executing Malicious Extension mitigation: Remove Extension"

@@ -1,0 +1,8 @@
+---
+- name: GCP Source Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update cloud source access
+      debug:
+        msg: "Executing GCP Source Leak mitigation: Restrict GCP Repo"

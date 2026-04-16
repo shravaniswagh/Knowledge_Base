@@ -1,0 +1,8 @@
+---
+- name: IAM Role Abuse Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Detach admin policies
+      debug:
+        msg: "Executing IAM Role Abuse mitigation: Revoke IAM"

@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Massive File Deletion with pattern 5000_FILES_DELETED\n

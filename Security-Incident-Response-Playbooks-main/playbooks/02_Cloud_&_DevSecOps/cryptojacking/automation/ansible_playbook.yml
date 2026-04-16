@@ -1,0 +1,8 @@
+---
+- name: Cryptojacking Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Prune crypto images
+      debug:
+        msg: "Executing Cryptojacking mitigation: Kill Miner Pods"

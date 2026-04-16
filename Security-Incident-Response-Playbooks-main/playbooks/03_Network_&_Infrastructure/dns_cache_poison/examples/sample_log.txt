@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for DNS Cache Poisoning with pattern DNS_BAIL_OUT\n

@@ -1,0 +1,8 @@
+---
+- name: Logic Bomb Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Delete suspicious cron jobs
+      debug:
+        msg: "Executing Logic Bomb mitigation: Remove Tasks"

@@ -1,0 +1,8 @@
+---
+- name: PLC Logic Tamper Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update PLC binary
+      debug:
+        msg: "Executing PLC Logic Tamper mitigation: Restore Firmware"

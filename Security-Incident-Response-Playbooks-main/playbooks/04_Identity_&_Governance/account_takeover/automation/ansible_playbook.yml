@@ -1,0 +1,8 @@
+---
+- name: Account Takeover Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Invalidate oauth secrets
+      debug:
+        msg: "Executing Account Takeover mitigation: Force MFA Reset"

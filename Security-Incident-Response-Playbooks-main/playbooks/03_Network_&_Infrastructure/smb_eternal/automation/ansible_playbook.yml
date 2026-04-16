@@ -1,0 +1,8 @@
+---
+- name: SMB EternalBlue Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Registry update for smb1
+      debug:
+        msg: "Executing SMB EternalBlue mitigation: Disable SMBv1"

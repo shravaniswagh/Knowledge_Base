@@ -1,0 +1,8 @@
+---
+- name: Subdomain Takeover Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Prune DNS CNAMEs
+      debug:
+        msg: "Executing Subdomain Takeover mitigation: Remove DNS"

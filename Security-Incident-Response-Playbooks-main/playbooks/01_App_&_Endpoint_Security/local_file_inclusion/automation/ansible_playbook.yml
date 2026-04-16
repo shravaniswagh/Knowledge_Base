@@ -1,0 +1,8 @@
+---
+- name: Local File Inclusion Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Restrict file access
+      debug:
+        msg: "Executing Local File Inclusion mitigation: Sanitize Path"

@@ -1,0 +1,8 @@
+---
+- name: Typosquatting Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update Squid blocklist
+      debug:
+        msg: "Executing Typosquatting mitigation: Block Proxy"

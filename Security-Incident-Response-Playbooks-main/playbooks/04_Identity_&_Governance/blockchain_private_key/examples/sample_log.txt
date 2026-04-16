@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Private Key Data Spill with pattern MNEMONIC_PHRASE\n

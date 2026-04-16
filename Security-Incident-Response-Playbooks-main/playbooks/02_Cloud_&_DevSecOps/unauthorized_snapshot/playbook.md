@@ -1,0 +1,24 @@
+# Unauthorized Snapshots Incident Response Playbook
+
+## Phase 1: Identification
+- [ ] Monitor logs for: `SNAPSHOT_EXTERNAL`
+- [ ] Verify event timestamp and source IP.
+- [ ] Run `scripts/detect_unauthorized_snapshot.py` to confirm the footprint.
+
+## Phase 2: Containment
+- [ ] Isolate the affected systems or user sessions.
+- [ ] **Technical Mitigation**: Delete Snapshots.
+- [ ] Verify that no new instances of the `SNAPSHOT_EXTERNAL` signature are appearing.
+
+## Phase 3: Eradication
+- [ ] Root cause analysis: Identify why the `SNAPSHOT_EXTERNAL` activity succeeded.
+- [ ] Apply security patches or configuration changes.
+- [ ] Use Ansible to automate the cleanup.
+
+## Phase 4: Recovery
+- [ ] Re-enable services in a monitored state.
+- [ ] Verify functional integrity.
+
+## Phase 5: Lessons Learned
+- [ ] Review the `unauthorized_snapshot` incident timeline.
+- [ ] Improve detection rules for future occurrences.

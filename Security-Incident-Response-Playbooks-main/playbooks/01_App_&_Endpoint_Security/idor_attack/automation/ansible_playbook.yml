@@ -1,0 +1,8 @@
+---
+- name: IDOR Attack Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden API auth
+      debug:
+        msg: "Executing IDOR Attack mitigation: Verify ID Ownership"

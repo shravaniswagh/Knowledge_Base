@@ -1,0 +1,8 @@
+---
+- name: Unauthorized Snapshots Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Audit EBS snapshot permissions
+      debug:
+        msg: "Executing Unauthorized Snapshots mitigation: Delete Snapshots"

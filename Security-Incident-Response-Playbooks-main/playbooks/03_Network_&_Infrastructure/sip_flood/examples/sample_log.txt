@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for SIP/VoIP DDoS with pattern VOIP_INVITE_FLOOD\n

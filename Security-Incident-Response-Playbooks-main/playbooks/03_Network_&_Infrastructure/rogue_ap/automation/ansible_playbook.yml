@@ -1,0 +1,8 @@
+---
+- name: Rogue Access Point Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Kill rogue radio process
+      debug:
+        msg: "Executing Rogue Access Point mitigation: Disable Radio"

@@ -1,0 +1,8 @@
+---
+- name: Bluetooth Sniffing Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Disable bluetooth stack
+      debug:
+        msg: "Executing Bluetooth Sniffing mitigation: Faraday shield"

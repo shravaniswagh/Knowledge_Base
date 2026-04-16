@@ -1,0 +1,8 @@
+---
+- name: AI Prompt Injection Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update ai firewall rules
+      debug:
+        msg: "Executing AI Prompt Injection mitigation: Update Guardrails"

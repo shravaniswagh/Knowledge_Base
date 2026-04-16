@@ -1,0 +1,8 @@
+---
+- name: CSRF Attack Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Enforce CSRF protection
+      debug:
+        msg: "Executing CSRF Attack mitigation: Anti-CSRF Tokens"

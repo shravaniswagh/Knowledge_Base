@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Kubernetes Pod Escape with pattern HOST_MOUNT\n

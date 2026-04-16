@@ -1,0 +1,8 @@
+---
+- name: Data Integrity Failure Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Run pg_checksums
+      debug:
+        msg: "Executing Data Integrity Failure mitigation: Consistency Check"

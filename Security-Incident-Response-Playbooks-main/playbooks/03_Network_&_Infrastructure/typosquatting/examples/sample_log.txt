@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Typosquatting Domain with pattern LOOK_ALIKE\n

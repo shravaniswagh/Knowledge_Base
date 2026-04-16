@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Business Email Compromise with pattern CEO_IMPERSONATE\n

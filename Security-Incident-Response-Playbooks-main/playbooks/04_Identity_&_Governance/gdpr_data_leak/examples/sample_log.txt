@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for GDPR/PII Data Leak with pattern PII_FOUND\n

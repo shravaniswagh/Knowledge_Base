@@ -1,0 +1,8 @@
+---
+- name: Blockchain Key Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Send key nullification tx
+      debug:
+        msg: "Executing Blockchain Key Leak mitigation: Revoke Keys"

@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Mobile Jailbreak Detection with pattern SU_BINARY_FOUND\n

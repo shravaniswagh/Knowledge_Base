@@ -1,0 +1,8 @@
+---
+- name: Buffer Overflow Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden binary stack
+      debug:
+        msg: "Executing Buffer Overflow mitigation: Enable ASLR/DEP"

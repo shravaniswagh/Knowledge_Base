@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for BGP Hijacking Detection with pattern ROUTE_ANOMALY\n

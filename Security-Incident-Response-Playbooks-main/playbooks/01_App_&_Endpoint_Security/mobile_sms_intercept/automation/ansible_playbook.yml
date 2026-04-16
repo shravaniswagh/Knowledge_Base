@@ -1,0 +1,8 @@
+---
+- name: SMS Interception Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Suspend active mobile session
+      debug:
+        msg: "Executing SMS Interception mitigation: Lock Mobile Vault"

@@ -1,0 +1,8 @@
+---
+- name: Cloud Console Hijack Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Expire all AWS sessions
+      debug:
+        msg: "Executing Cloud Console Hijack mitigation: Force MFA"

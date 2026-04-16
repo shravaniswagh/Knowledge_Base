@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Insecure Direct Object Ref (IDOR) with pattern AUTH_BYPASS_ID\n

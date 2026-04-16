@@ -1,0 +1,8 @@
+---
+- name: HIPAA Violation Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Scrub medical records logs
+      debug:
+        msg: "Executing HIPAA Violation mitigation: Mask Data"

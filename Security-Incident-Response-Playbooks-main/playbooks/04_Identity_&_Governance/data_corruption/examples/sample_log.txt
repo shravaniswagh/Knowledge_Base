@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Data Integrity Failure with pattern CHECKSUM_ERROR\n

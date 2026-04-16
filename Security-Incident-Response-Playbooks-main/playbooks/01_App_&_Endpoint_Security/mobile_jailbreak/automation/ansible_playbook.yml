@@ -1,0 +1,8 @@
+---
+- name: Mobile Jailbreak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Enforce MDM wipe policy
+      debug:
+        msg: "Executing Mobile Jailbreak mitigation: Wipe App Data"

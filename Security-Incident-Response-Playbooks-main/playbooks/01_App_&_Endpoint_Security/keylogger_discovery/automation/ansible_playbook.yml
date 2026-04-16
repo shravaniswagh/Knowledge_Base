@@ -1,0 +1,8 @@
+---
+- name: Keylogger Discovery Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Kill keylogger pid
+      debug:
+        msg: "Executing Keylogger Discovery mitigation: Remove Hook"

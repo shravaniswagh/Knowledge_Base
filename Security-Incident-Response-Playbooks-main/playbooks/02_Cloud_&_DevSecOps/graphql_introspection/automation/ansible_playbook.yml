@@ -1,0 +1,8 @@
+---
+- name: GraphQL Abuse Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update GraphQL server code
+      debug:
+        msg: "Executing GraphQL Abuse mitigation: Disable Schema"

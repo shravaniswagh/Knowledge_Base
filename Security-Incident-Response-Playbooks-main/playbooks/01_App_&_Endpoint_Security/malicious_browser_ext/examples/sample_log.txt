@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Malicious Browser Extension with pattern EXTENSION_KEYLOG\n

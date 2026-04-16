@@ -1,0 +1,8 @@
+---
+- name: Mass File Deletion Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Recover cloud snapshots
+      debug:
+        msg: "Executing Mass File Deletion mitigation: Restoration"

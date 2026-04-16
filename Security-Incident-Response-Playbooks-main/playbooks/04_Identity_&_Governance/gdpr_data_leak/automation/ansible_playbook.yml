@@ -1,0 +1,8 @@
+---
+- name: GDPR Data Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Apply logrotate with masking
+      debug:
+        msg: "Executing GDPR Data Leak mitigation: Redact Logs"

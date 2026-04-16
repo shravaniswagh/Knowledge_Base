@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Shadow IT Detection with pattern UNSANCTIONED_APP\n

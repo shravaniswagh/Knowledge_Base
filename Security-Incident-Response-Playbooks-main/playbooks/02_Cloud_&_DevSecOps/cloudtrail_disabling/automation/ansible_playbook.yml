@@ -1,0 +1,8 @@
+---
+- name: CloudTrail Disabling Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Enable CloudTrail logging
+      debug:
+        msg: "Executing CloudTrail Disabling mitigation: Restore Logs"

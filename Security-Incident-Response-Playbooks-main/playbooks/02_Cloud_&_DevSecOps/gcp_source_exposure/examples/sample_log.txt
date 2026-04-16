@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for GCP Source Repository Leak with pattern GIT_PUSH_OUTSIDE_ORG\n

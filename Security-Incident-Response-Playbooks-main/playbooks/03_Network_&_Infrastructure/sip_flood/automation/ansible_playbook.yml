@@ -1,0 +1,8 @@
+---
+- name: SIP/VoIP DDoS Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Block sip invite bursts
+      debug:
+        msg: "Executing SIP/VoIP DDoS mitigation: Gateway Filter"

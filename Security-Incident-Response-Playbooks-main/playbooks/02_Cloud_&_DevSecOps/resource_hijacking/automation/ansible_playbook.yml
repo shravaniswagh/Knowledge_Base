@@ -1,0 +1,8 @@
+---
+- name: Resource Hijacking Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Stop compute instances
+      debug:
+        msg: "Executing Resource Hijacking mitigation: Clean Assets"

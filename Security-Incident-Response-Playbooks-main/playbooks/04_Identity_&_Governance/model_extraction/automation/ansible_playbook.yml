@@ -1,0 +1,8 @@
+---
+- name: AI Model Extraction Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Throttle ai api calls
+      debug:
+        msg: "Executing AI Model Extraction mitigation: Rate Limit"

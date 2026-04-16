@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Brute Force (Web) with pattern 401 Unauthorized\n

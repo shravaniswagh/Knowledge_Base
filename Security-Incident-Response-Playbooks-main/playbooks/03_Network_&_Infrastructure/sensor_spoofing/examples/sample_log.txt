@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Sensor Data Spoofing with pattern ANOMALOUS_VALUE\n

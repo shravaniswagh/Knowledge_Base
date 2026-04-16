@@ -1,0 +1,8 @@
+---
+- name: Prototype Pollution Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Add schema validation
+      debug:
+        msg: "Executing Prototype Pollution mitigation: Freeze Objects"

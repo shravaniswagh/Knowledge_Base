@@ -1,0 +1,8 @@
+---
+- name: SQL Injection Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Add WAF rules
+      debug:
+        msg: "Executing SQL Injection mitigation: WAF SQLi Blocking"

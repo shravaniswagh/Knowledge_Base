@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Vulnerable Base Image with pattern CVE-CRITICAL\n

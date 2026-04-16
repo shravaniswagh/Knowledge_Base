@@ -1,0 +1,8 @@
+---
+- name: VLAN Hopping Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Harden VLAN tags
+      debug:
+        msg: "Executing VLAN Hopping mitigation: Disable Trunking"

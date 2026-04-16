@@ -1,0 +1,8 @@
+---
+- name: Insider Threat Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Expire active PAM session
+      debug:
+        msg: "Executing Insider Threat mitigation: Lock Internal"

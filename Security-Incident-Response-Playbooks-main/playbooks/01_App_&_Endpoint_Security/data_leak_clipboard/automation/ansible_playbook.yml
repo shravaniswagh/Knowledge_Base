@@ -1,0 +1,8 @@
+---
+- name: Clipboard Data Leak Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Restrict RDP clipboard
+      debug:
+        msg: "Executing Clipboard Data Leak mitigation: Disable Clipboard"

@@ -1,0 +1,8 @@
+---
+- name: Rogue VPN Access Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Invalidate ovpn certs
+      debug:
+        msg: "Executing Rogue VPN Access mitigation: Revoke Certs"

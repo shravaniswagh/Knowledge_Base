@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for RFID Badge Cloner with pattern DUPLICATE_BADGE\n

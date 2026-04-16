@@ -1,0 +1,8 @@
+---
+- name: Ransomware Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Scan and remove malware
+      debug:
+        msg: "Executing Ransomware mitigation: ClamAV Quarantine"

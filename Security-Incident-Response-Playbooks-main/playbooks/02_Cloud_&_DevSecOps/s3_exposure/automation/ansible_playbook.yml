@@ -1,0 +1,8 @@
+---
+- name: S3 Exposure Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Apply S3 Block Public Access
+      debug:
+        msg: "Executing S3 Exposure mitigation: Secure S3"

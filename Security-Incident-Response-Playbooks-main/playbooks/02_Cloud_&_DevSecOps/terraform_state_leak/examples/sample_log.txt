@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Terraform State Exposure with pattern TF_STATE_PUBLIC\n

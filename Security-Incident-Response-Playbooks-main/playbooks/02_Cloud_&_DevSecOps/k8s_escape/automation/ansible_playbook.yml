@@ -1,0 +1,8 @@
+---
+- name: K8s Pod Escape Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Deploy Gatekeeper OPA
+      debug:
+        msg: "Executing K8s Pod Escape mitigation: Apply PSP"

@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Man-in-the-Middle with pattern ARP_SPOOF\n

@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Unauthorized Snapshots with pattern CREATE_SNAPSHOT_EXTERNAL\n

@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Prototype Pollution with pattern __proto__\n

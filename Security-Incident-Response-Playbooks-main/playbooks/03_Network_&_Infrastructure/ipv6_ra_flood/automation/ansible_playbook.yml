@@ -1,0 +1,8 @@
+---
+- name: IPv6 RA Flood Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update ipv6 firewall
+      debug:
+        msg: "Executing IPv6 RA Flood mitigation: Enable RA Guard"

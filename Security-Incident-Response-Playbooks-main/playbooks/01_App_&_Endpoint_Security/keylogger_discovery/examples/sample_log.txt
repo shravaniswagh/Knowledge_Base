@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for Keylogger Discovery with pattern KEY_LOG_SAVED\n

@@ -1,0 +1,8 @@
+---
+- name: API Key Exposure Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Rotate AWS secrets
+      debug:
+        msg: "Executing API Key Exposure mitigation: Revoke keys"

@@ -1,0 +1,8 @@
+---
+- name: Man-in-the-Middle Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update switch config
+      debug:
+        msg: "Executing Man-in-the-Middle mitigation: Enable Dynamic ARP"

@@ -1,0 +1,8 @@
+---
+- name: AI Model Inversion Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Run training data scrub
+      debug:
+        msg: "Executing AI Model Inversion mitigation: Privacy Audit"

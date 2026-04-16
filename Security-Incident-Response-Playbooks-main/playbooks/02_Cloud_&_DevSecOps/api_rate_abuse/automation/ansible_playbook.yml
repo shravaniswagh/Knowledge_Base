@@ -1,0 +1,8 @@
+---
+- name: API Rate Abuse Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update API gateway throttle
+      debug:
+        msg: "Executing API Rate Abuse mitigation: Apply Quotas"

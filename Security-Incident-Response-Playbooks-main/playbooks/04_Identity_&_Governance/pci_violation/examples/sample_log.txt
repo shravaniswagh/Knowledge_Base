@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for PCI-DSS Compliance Breach with pattern CC_PLAINTEXT\n

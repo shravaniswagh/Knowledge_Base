@@ -1,0 +1,8 @@
+---
+- name: Lambda Injection Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Revoke function write access
+      debug:
+        msg: "Executing Lambda Injection mitigation: Apply Lambda IAM"

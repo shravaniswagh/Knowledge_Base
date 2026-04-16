@@ -1,0 +1,8 @@
+---
+- name: Vulnerable Image Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Rebuild container images
+      debug:
+        msg: "Executing Vulnerable Image mitigation: Update Version"

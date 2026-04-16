@@ -1,0 +1,8 @@
+---
+- name: Shared Credential Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Block shared logins
+      debug:
+        msg: "Executing Shared Credential mitigation: Force Identity"

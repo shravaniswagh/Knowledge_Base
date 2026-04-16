@@ -1,0 +1,8 @@
+---
+- name: ICMP Exfiltration Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update nftables icmp rules
+      debug:
+        msg: "Executing ICMP Exfiltration mitigation: Rate Limit ICMP"

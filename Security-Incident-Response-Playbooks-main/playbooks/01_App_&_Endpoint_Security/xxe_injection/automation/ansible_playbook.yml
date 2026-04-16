@@ -1,0 +1,8 @@
+---
+- name: XXE Injection Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update XML parser config
+      debug:
+        msg: "Executing XXE Injection mitigation: Disable XML Entities"

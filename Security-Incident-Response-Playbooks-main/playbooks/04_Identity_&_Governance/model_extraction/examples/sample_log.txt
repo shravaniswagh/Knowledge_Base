@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for AI Model Extraction (Cloning) with pattern MODEL_STOLEN_PROBE\n

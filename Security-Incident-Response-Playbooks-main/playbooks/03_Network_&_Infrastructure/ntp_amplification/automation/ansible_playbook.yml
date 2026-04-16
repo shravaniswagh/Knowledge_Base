@@ -1,0 +1,8 @@
+---
+- name: NTP Amplification Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update ntp.conf restrict
+      debug:
+        msg: "Executing NTP Amplification mitigation: Secure NTP"

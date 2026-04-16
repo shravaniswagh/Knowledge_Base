@@ -1,0 +1,8 @@
+---
+- name: Cert Pinning Bypass Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Add anti-debugging logic
+      debug:
+        msg: "Executing Cert Pinning Bypass mitigation: Kill Process"

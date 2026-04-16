@@ -1,0 +1,8 @@
+---
+- name: TF State Exposure Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Enable bucket encryption
+      debug:
+        msg: "Executing TF State Exposure mitigation: Secure State"

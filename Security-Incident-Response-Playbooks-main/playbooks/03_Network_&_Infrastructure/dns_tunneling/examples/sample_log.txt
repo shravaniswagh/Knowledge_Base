@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for DNS Tunneling with pattern DNS_TXT_EXFIL\n

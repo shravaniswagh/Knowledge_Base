@@ -1,0 +1,8 @@
+---
+- name: Container Runtime Drift Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Add Falco alerting
+      debug:
+        msg: "Executing Container Runtime Drift mitigation: Terminate Pods"

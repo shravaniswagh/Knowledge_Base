@@ -1,0 +1,8 @@
+---
+- name: Phishing Incident Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Update postfix sender check
+      debug:
+        msg: "Executing Phishing Incident mitigation: Domain Block"

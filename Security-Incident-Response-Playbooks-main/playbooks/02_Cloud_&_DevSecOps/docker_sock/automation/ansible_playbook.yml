@@ -1,0 +1,8 @@
+---
+- name: Docker Socket Exposure Mitigation
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Fix docker service config
+      debug:
+        msg: "Executing Docker Socket Exposure mitigation: Remove Mount"

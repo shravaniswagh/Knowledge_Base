@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for VLAN Hopping with pattern TRUNK_ABUSE\n

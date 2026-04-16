@@ -1,0 +1,1 @@
+SAMPLE_LOG_ENTRY: Testing for SMB EternalBlue Detection with pattern ETERNAL_BLUE_SIG\n
